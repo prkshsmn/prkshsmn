@@ -13,7 +13,7 @@ job is measured, every alert has to earn its place, and every fix is checked by 
   encrypted with SOPS and age, offsite backups that are verified by hash and restore-tested.
   The public write-up, with the incidents that taught me the most, is in
   [homelab-showcase](https://github.com/prkshsmn/homelab-showcase).
-- **Measurement before opinion.** I built a small usage store (one SQLite file fed by cron
+- **Measurement before opinion.** I built a small [usage store](https://github.com/prkshsmn/usage-store) (one SQLite file fed by cron
   collectors) so that "is this used?" has a number. It cut my own alert volume from about
   eleven pushes a day to one or two.
 - **A personal finance and health tracker** with its own Postgres schema and bank sync, and a
